@@ -24,20 +24,19 @@
 		212264B72D426C0900137763 /* ForgotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212264B62D426C0900137763 /* ForgotViewModel.swift */; };
 		212264BB2D4270C500137763 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212264BA2D4270C500137763 /* OTPView.swift */; };
 		212264C12D43879000137763 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212264C02D43879000137763 /* HomeView.swift */; };
+		212264DD2D43D3BB00137763 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 212264DC2D43D3BB00137763 /* Auth */; };
+		212264DF2D43D3BB00137763 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 212264DE2D43D3BB00137763 /* Functions */; };
+		212264E12D43D3BB00137763 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 212264E02D43D3BB00137763 /* PostgREST */; };
+		212264E32D43D3BB00137763 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 212264E22D43D3BB00137763 /* Realtime */; };
+		212264E52D43D3BB00137763 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 212264E42D43D3BB00137763 /* Storage */; };
+		212264E72D43D3BB00137763 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 212264E62D43D3BB00137763 /* Supabase */; };
 		21701A942D3F807A00C24473 /* RegFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701A932D3F807A00C24473 /* RegFinalApp.swift */; };
 		21701A962D3F807A00C24473 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701A952D3F807A00C24473 /* ContentView.swift */; };
 		21701A982D3F807C00C24473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21701A972D3F807C00C24473 /* Assets.xcassets */; };
 		21701A9B2D3F807C00C24473 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21701A9A2D3F807C00C24473 /* Preview Assets.xcassets */; };
 		21701AA52D3F91D500C24473 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701AA42D3F91D500C24473 /* UserModel.swift */; };
 		21701AA72D3F91E100C24473 /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701AA62D3F91E100C24473 /* SupabaseManager.swift */; };
-		21701AAA2D3F921000C24473 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AA92D3F921000C24473 /* Auth */; };
-		21701AAC2D3F921000C24473 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AAB2D3F921000C24473 /* Functions */; };
-		21701AAE2D3F921000C24473 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AAD2D3F921000C24473 /* PostgREST */; };
-		21701AB02D3F921000C24473 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AAF2D3F921000C24473 /* Realtime */; };
-		21701AB22D3F921000C24473 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AB12D3F921000C24473 /* Storage */; };
-		21701AB42D3F921000C24473 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 21701AB32D3F921000C24473 /* Supabase */; };
 		21701AB92D3F937400C24473 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701AB82D3F937400C24473 /* SignInView.swift */; };
-		21701AC62D3F9BA700C24473 /* PassionsConflictRUS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21701AC52D3F9BA700C24473 /* PassionsConflictRUS-Regular.ttf */; };
 		21701AC82D3FA1C500C24473 /* ExtensionSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701AC72D3FA1C500C24473 /* ExtensionSignIn.swift */; };
 		21701ACA2D3FA28600C24473 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21701AC92D3FA28600C24473 /* CustomTextField.swift */; };
 		21DF3B582D3FA84D008E70EE /* SignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3B572D3FA84D008E70EE /* SignViewModel.swift */; };
@@ -87,7 +86,6 @@
 		21701AA62D3F91E100C24473 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
 		21701AB82D3F937400C24473 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		21701AC02D3F986C00C24473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		21701AC52D3F9BA700C24473 /* PassionsConflictRUS-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PassionsConflictRUS-Regular.ttf"; sourceTree = "<group>"; };
 		21701AC72D3FA1C500C24473 /* ExtensionSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSignIn.swift; sourceTree = "<group>"; };
 		21701AC92D3FA28600C24473 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		21DF3B572D3FA84D008E70EE /* SignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewModel.swift; sourceTree = "<group>"; };
@@ -111,12 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21701AAE2D3F921000C24473 /* PostgREST in Frameworks */,
-				21701AAC2D3F921000C24473 /* Functions in Frameworks */,
-				21701AB42D3F921000C24473 /* Supabase in Frameworks */,
-				21701AAA2D3F921000C24473 /* Auth in Frameworks */,
-				21701AB22D3F921000C24473 /* Storage in Frameworks */,
-				21701AB02D3F921000C24473 /* Realtime in Frameworks */,
+				212264E12D43D3BB00137763 /* PostgREST in Frameworks */,
+				212264DF2D43D3BB00137763 /* Functions in Frameworks */,
+				212264E72D43D3BB00137763 /* Supabase in Frameworks */,
+				212264DD2D43D3BB00137763 /* Auth in Frameworks */,
+				212264E52D43D3BB00137763 /* Storage in Frameworks */,
+				212264E32D43D3BB00137763 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +390,6 @@
 		21701ABB2D3F97A300C24473 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				21701AC52D3F9BA700C24473 /* PassionsConflictRUS-Regular.ttf */,
 				212264A72D421CD700137763 /* Raleway-v4020-Bold.ttf */,
 			);
 			path = Font;
@@ -433,12 +430,12 @@
 			);
 			name = RegFinal;
 			packageProductDependencies = (
-				21701AA92D3F921000C24473 /* Auth */,
-				21701AAB2D3F921000C24473 /* Functions */,
-				21701AAD2D3F921000C24473 /* PostgREST */,
-				21701AAF2D3F921000C24473 /* Realtime */,
-				21701AB12D3F921000C24473 /* Storage */,
-				21701AB32D3F921000C24473 /* Supabase */,
+				212264DC2D43D3BB00137763 /* Auth */,
+				212264DE2D43D3BB00137763 /* Functions */,
+				212264E02D43D3BB00137763 /* PostgREST */,
+				212264E22D43D3BB00137763 /* Realtime */,
+				212264E42D43D3BB00137763 /* Storage */,
+				212264E62D43D3BB00137763 /* Supabase */,
 			);
 			productName = RegFinal;
 			productReference = 21701A902D3F807A00C24473 /* RegFinal.app */;
@@ -497,7 +494,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21701AC62D3F9BA700C24473 /* PassionsConflictRUS-Regular.ttf in Resources */,
 				21701A9B2D3F807C00C24473 /* Preview Assets.xcassets in Resources */,
 				212264A82D421CD700137763 /* Raleway-v4020-Bold.ttf in Resources */,
 				21701A982D3F807C00C24473 /* Assets.xcassets in Resources */,
@@ -821,32 +817,32 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		21701AA92D3F921000C24473 /* Auth */ = {
+		212264DC2D43D3BB00137763 /* Auth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Auth;
 		};
-		21701AAB2D3F921000C24473 /* Functions */ = {
+		212264DE2D43D3BB00137763 /* Functions */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Functions;
 		};
-		21701AAD2D3F921000C24473 /* PostgREST */ = {
+		212264E02D43D3BB00137763 /* PostgREST */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = PostgREST;
 		};
-		21701AAF2D3F921000C24473 /* Realtime */ = {
+		212264E22D43D3BB00137763 /* Realtime */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Realtime;
 		};
-		21701AB12D3F921000C24473 /* Storage */ = {
+		212264E42D43D3BB00137763 /* Storage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Storage;
 		};
-		21701AB32D3F921000C24473 /* Supabase */ = {
+		212264E62D43D3BB00137763 /* Supabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 21701AA82D3F921000C24473 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Supabase;

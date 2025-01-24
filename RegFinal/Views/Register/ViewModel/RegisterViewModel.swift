@@ -23,7 +23,6 @@ class RegisterViewModel: ObservableObject {
         self.emailError = email.isEmpty ? true : false
         self.passwordError = password.isEmpty ? true : false
         self.passwordError = password.count <= 5 ? true : false
-        self.isAlertPassword = passwordError
         self.nameError = name.isEmpty ? true : false
         if emailError || passwordError || nameError {
             return false
