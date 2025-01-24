@@ -24,6 +24,7 @@ final class OnboardingTests: XCTestCase {
         
         XCTAssertTrue(email.EmailValidatePredicate(email: "name@domenname.ru"))
         
+        
         XCTAssertFalse(email.EmailValidatePredicate(email: "NAME@domenname.ru"))
         XCTAssertFalse(email.EmailValidatePredicate(email: "NAME@12domenname.ru"))
         
