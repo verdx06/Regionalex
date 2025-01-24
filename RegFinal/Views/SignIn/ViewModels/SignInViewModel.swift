@@ -17,9 +17,9 @@ class SignInViewModel: ObservableObject {
     
     
     func checkSignIn(email: String, password: String) -> Bool {
-        self.emailError = email.isEmpty ? false : true
-        self.passwordError = password.isEmpty ? false : true
-        self.passwordError = password.count <= 5 ? false : false
+        self.emailError = email.isEmpty ? true : false
+        self.passwordError = password.isEmpty ? true : false
+        self.passwordError = password.count <= 5 ? true : false
         self.isAlertPassword = passwordError
         if emailError || passwordError {
             return false

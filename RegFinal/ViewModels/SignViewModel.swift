@@ -30,7 +30,10 @@ class SignViewModel: ObservableObject {
                     self.isProgress = true
                 }
                 try await SupabaseManager.instance.signin(email: email, password: password)
-
+                await MainActor.run {
+                    self.isProgress = false
+                    self.isNavigate = true
+                }
             }
             catch {
                 print(error.localizedDescription)
